@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "license": "ISC",
+  "author": "Jonas Schmedtmann",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-optimize"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "fracty": "^1.0.12",
+    "surge": "^0.24.6"
+  }
+}
